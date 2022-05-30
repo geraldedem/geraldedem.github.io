@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<title>Home</title>
+<link href="project.css" rel="stylesheet"></link>
+
+<style>
+.menu {
+ width:350px;
+ height:200px;
+ align:center;
+ id:env;
+ margin-left:10px;
+ margin-top:10px;
+ border-radius:5px
+}
+</style>
+</head>
+<body>
+
+<!--general div-->
+<div class="gen_div">
+
+<!--Head-->
+<div class="head_div" >
+
+<!--image-->
+<img src="picture.jpg" style="width:100%; height:400px">
+
+
+<!--text-->
+<div style="position:absolute; top:30%; left:50%; transform:translate(-50%, -50%) ">
+
+<h1 style="text-align:center"><strong><i>G AND E SUITES AND APARTMENTS</i></strong></h1>
+<h2 style="text-align:center"><strong>"Striving for your comfort"</strong></h2>
+
+</div>
+
+</div>
+
+<!--body-->
+<div class="body_div" style="margin-top:-30px">
+
+<!--text div-->
+<div style="float:left; background-color:#f5f0e1; width:100%">
+<h1>A LUXURIOUS STAY IN VARIOUS <br> BUISSNESS DISTRICTS</h1>
+</div>
+
+<!--section-->
+<section style="height:920.4px">
+
+<!--nav div-->
+<div class="nav_div" style="font-size:40px">
+<nav style="display:block">
+<a href="home.html" style="text-decoration:none"><h2>Home</h2></a><br><br><br>
+<a href="rooms.html" style="text-decoration:none"><h2>Rooms</h2></a><br><br><br>
+<a href="gallery.html" style="text-decoration:none"><h2>Gallery</h2></a><br><br><br>
+<a href="about.html" style="text-decoration:none"><h2>About</h2></a><br><br><br>
+
+</nav>
+</div>
+
+</section>
+
+<!--aside-->
+<aside>
+
+<h1>the luxery Eden apartments is a five-star hotel with different branches all over the world.
+ it comes with aswimming pool and a gym as well as shuttle service and valet parking service.</h1>
+
+<hr>
+<p style="text-align:center; font-size:20px"><b>
+<i>We offer varoius services such as:</i>
+</b></p>
+
+<!--table-->
+<table border="0px solid" style="; align:center; width:100%">
+<tr>
+<th>
+<button onclick="document.getElementById('trans').src = 'transportation.jpg'"> < </button>
+Transportation
+<button onclick="document.getElementById('trans').src = 'transportation1.jpg'"> > </button>
+</th>
+<th>
+<button onclick="document.getElementById('env').src = 'env.jpeg'"> < </button>
+ Serine environment
+ <button onclick="document.getElementById('env').src = 'env1.jpeg'"> > </button>
+ </th>
+</tr>
+
+<tr>
+<td><img src="transportation.jpg" class="menu" id="trans"></td>
+<td><img img src="env.jpeg" class="menu" id="env"></td>
+</tr>
+<tr>
+<th>
+<button onclick="document.getElementById('pool').src='pool.jpg'"> < </button>
+Outdoor pools
+<button onclick="document.getElementById('pool').src='pool1.jpg'"> > </button>
+</th>
+<th>
+<button onclick="document.getElementById('tennis').src='tennis.jpg'"> < </button>
+Tennis Court
+<button onclick="document.getElementById('tennis').src='tennis1.jpg'"> > </button>
+</th>
+</tr>
+<tr>
+<td><img src="pool.jpg" class="menu" id="pool"></td>
+<td><img src="tennis.jpg" class="menu" id="tennis"></td>
+</tr>
+<tr>
+<th>
+<button onclick="document.getElementById('fitness').src='fitness.jpg'"> < </button>
+Fitness Center
+<button onclick="document.getElementById('fitness').src='fitness1.jpeg'"> > </button>
+</th>
+<th>
+<button onclick="document.getElementById('casino').src='casino.jpg'"> < </button>
+Casino
+<button onclick="document.getElementById('casino').src='casino1.jpg'"> > </button>
+</th>
+</tr>
+<tr>
+<td><img src="fitness.jpg" class="menu" id="fitness"></td>
+<td><img src="Casino.jpg" class="menu" id="casino"></td>
+</tr>
+
+</table>
+
+
+</aside>
+
+</div>
+
+<!--footer-->
+<div class="footer_div" style="float:left">
+<!--contact and support-->
+<P>Owned by Eden Ltd.(Government approved)<br>
+contact through our contact support mail:<br> gandesuitsandapartments@gmail.com
+or through our phone number: 09034587991
+</P>
+
+
+<p id="dayt">
+<button onclick="document.getElementById('dayt').innerHTML = Date()">
+Date
+</button>
+</p>
+
+
+<!--back to home button-->
+<button style="font-size:20px; background-color:transparent; text-decoration:None; border-radius:15px; border-color:#C2E3F4">
+<a href="project.html" style="text-decoration:None">Back to home</a>
+</button>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
